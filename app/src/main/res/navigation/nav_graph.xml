@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/allAppsFragment">
+
+    <fragment
+        android:id="@+id/allAppsFragment"
+        android:name="com.duodevloopers.appscheduler.fragment.AllAppsFragment"
+        android:label="fragment_all_apps"
+        tools:layout="@layout/fragment_all_apps" >
+        <action
+            android:id="@+id/action_allAppsFragment_to_scheduledAppsFragment"
+            app:destination="@id/scheduledAppsFragment" />
+        <action
+            android:id="@+id/action_allAppsFragment_to_recordFragment"
+            app:destination="@id/recordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scheduledAppsFragment"
+        android:name="com.duodevloopers.appscheduler.fragment.ScheduledAppsFragment"
+        android:label="fragment_scheduled_apps"
+        tools:layout="@layout/fragment_scheduled_apps" />
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="com.duodevloopers.appscheduler.fragment.RecordFragment"
+        android:label="fragment_record"
+        tools:layout="@layout/fragment_record" />
+</navigation>

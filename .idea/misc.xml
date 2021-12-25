@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AppScheduler/app/src/main/res/layout/activity_main.xml" value="0.19166666666666668" />
+        <entry key="..\:/AppScheduler/app/src/main/res/layout/app_item_layout.xml" value="0.25" />
+        <entry key="..\:/AppScheduler/app/src/main/res/layout/fragment_all_apps.xml" value="0.19166666666666668" />
+        <entry key="..\:/AppScheduler/app/src/main/res/layout/fragment_record.xml" value="0.19166666666666668" />
+        <entry key="..\:/AppScheduler/app/src/main/res/layout/fragment_scheduled_apps.xml" value="0.19166666666666668" />
+        <entry key="..\:/AppScheduler/app/src/main/res/layout/schedule_record_item_layout.xml" value="0.75" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
